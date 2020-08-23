@@ -15,9 +15,15 @@ winwos版本6.8
 curl https://download.bt.cn/install/update_panel.sh|bash
 
 或者离线升级
+
 1、下载离线升级包：http://download.bt.cn/install/update/LinuxPanel-7.4.3.zip
+
 2、将升级包上传到服务器中的/root目录
+
 3、解压文件：unzip LinuxPanel-7.4.3.zip
+
 4、切换到升级包目录： cd panel
+
 5、执行升级脚本：bash update.sh
+
 6、删除升级包：cd .. && rm -f LinuxPanel-7.4.3.zip && rm -rf panel
