@@ -1,0 +1,11 @@
+import requests
+
+domain = '127.0.0.1'
+payload = ':888/pma'
+url = domain+payload
+
+response = requests.get(url)
+if response.status_code == 200:
+    print("漏洞存在！")
+else:
+    print("可能不存在")
