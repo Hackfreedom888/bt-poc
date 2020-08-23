@@ -27,3 +27,8 @@ curl https://download.bt.cn/install/update_panel.sh|bash
 5、执行升级脚本：bash update.sh
 
 6、删除升级包：cd .. && rm -f LinuxPanel-7.4.3.zip && rm -rf panel
+
+
+部分poc代码来自
+
+https://github.com/shiyeshu/BT_7.4.2_POC
